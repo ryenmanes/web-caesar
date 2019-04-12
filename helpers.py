@@ -18,14 +18,14 @@ def rotate_character(letter, move):
   else: 
     return alphabet_position(rotated_position, False)
 
-def alphabet_position(position_number, upper):
+"""def alphabet_position(position_number, upper):
   character = chr(position_number + 65)
   if upper:
     return character
   else:
-    return character.lower()
+    return character.lower()"""
 
-def rotate_character(letter, move):
+"""def rotate_character(letter, move):
   if letter.isupper():
     letterpos = ord(letter) - 65
   else:
@@ -35,3 +35,4 @@ def rotate_character(letter, move):
     return alphabet_position(rotated_position, True)
   else: 
     return alphabet_position(rotated_position, False)
+    """
